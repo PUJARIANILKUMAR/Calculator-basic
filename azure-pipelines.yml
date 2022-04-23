@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  image:default
+  name: Default
 
 steps:
 - script: echo Hello, world!
